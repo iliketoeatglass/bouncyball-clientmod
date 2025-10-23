@@ -1,0 +1,17 @@
+"UnlitGeneric"
+{
+	// Original shader: BaseTextureAlphaBlend
+	"$basetexture" "voice/icntlk_sv"
+	"$vertexcolor" 1
+	"$ignorez" 1
+  	"$translucent"   "1"
+	"Proxies"
+ 	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" 10
+		}
+	}
+}

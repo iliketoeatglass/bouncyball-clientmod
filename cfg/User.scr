@@ -1,0 +1,194 @@
+VERSION 1.0
+DESCRIPTION INFO_OPTIONS
+{
+	"category_HUD"
+	{
+		"#BB_HUD"
+		{ BUTTON }
+		{ "0" }
+	}
+
+	"vgui_ui_scale_factor"
+	{
+		"#BB_uiscale"
+		{ SLIDER 0 4}
+		{ "1" }
+	}
+
+	"hidehud"
+	{
+		"#BB_hidehud"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"crosshair"
+	{
+		"#BB_drawcrosshair"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"hud_quickinfo"
+	{
+		"#GameUI_HudQuickInfo_Info"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"net_graph"
+	{
+		"#BB_netgraphvis"
+		{	LIST
+			"#BB_hidden" "0"
+			"#BB_basic" "1"
+			"#BB_full" "4"
+		}
+		{ "0" }
+	}
+
+	"Net_graphpos"
+	{
+		"#BB_netgraphpos"
+		{	LIST
+			"#BB_right" "1"
+			"#BB_left" "3"
+			"#BB_center" "2"
+		}
+		{ "1" }
+	}
+
+	"hud_deathnotice_time"
+	{
+		"#BB_deathnoticedur"
+		{ NUMBER 0 -1 }
+		{ "6" }
+	}
+	
+	"hud_saytext_time"
+	{
+		"#BB_chatmsgdur"
+		{ NUMBER 0 -1 }
+		{ "12" }
+	}
+
+	"cl_showfps"
+	{
+		"#BB_fps"
+		{ BOOL  }
+		{ "0" }
+	}
+
+	"cl_showpos"
+	{
+		"#BB_pos"
+		{ BOOL  }
+		{ "0" }
+	}
+
+	"category_game"
+	{
+		"#BB_game"
+		{ BUTTON }
+		{ "0" }
+	}
+
+	"cl_spraydisable"
+	{
+		"#GameUI_DisableSprays"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"cl_autowepswitch"
+	{
+		"#BB_autoswitch"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_interp"
+	{
+		"#BB_interp"
+		{ NUMBER 0 -1 }
+		{ "0.06" }
+	}
+
+	"cl_interp_ratio"
+	{
+		"#BB_interpratio"
+		{ NUMBER 0 -1 }
+		{ "1" }
+	}
+
+	"category_cooms"
+	{
+		"#BB_communication"
+		{ BUTTON }
+		{ "0" }
+	}
+
+	"cl_enable_text_chat"
+	{
+		"#BB_textchat"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"voice_modenable"
+	{
+		"#BB_voicechat"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"cl_mute_all_comms "
+	{
+		"#BB_allmuted"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"category_video"
+	{
+		"#BB_video"
+		{ BUTTON }
+		{ "0" }
+	}
+
+	"mat_specular"
+	{
+		"#BB_specularity"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"mat_filtertextures"
+	{
+		"#BB_texturefilter"
+		{ BOOL }
+		{ "1" }
+	}	
+	
+	"mat_filterlightmaps"
+	{
+		"#BB_smoothlightmaps"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"category_other"
+	{
+		"#BB_other"
+		{ BUTTON }
+		{ "1" }
+	}
+	
+	"sv_cheats"
+	{
+		"#BB_cheats"
+		{ BOOL }
+		{ "1" }
+	}
+
+}
