@@ -61,7 +61,7 @@
 		"wide" "125" //125
 		"tall" "277"
 
-		"item_wide"	"990"
+		"item_wide"	"125"
 		"item_tall"	"17"
 		"item_spacing"	"2"
 		
@@ -79,7 +79,7 @@
 		"dead_tall"			"8"
 		
 		"show_voice_icon"	"1"
-		"icon_ypos"			"-3"
+		"icon_ypos"			"7" //-3
 		"icon_xpos"			"14"
 		"icon_tall"			"8"
 		"icon_wide"			"8"
