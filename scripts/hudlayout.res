@@ -79,8 +79,8 @@
 		"dead_tall"			"8"
 		
 		"show_voice_icon"	"1"
-		"icon_ypos"			"7" //-3
-		"icon_xpos"			"14"
+		"icon_ypos"			"-3" //-3
+		"icon_xpos"			"12"
 		"icon_tall"			"8"
 		"icon_wide"			"8"
 		

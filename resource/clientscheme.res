@@ -180,10 +180,10 @@ Scheme
 
 		SectionedListPanel.HeaderTextColor	"Whitedim"
 		SectionedListPanel.HeaderBgColor	"Blank"
-		SectionedListPanel.DividerColor		"Black"
+		SectionedListPanel.DividerColor		"Whitedim"
 		SectionedListPanel.TextColor		"Whitedim"
 		SectionedListPanel.BrightTextColor	"Whitedim"
-		SectionedListPanel.BgColor			"TransparentLightBlack"
+		SectionedListPanel.BgColor			"Blank"
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"Red"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"

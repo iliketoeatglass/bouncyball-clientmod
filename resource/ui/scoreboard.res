@@ -13,39 +13,76 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"		"0"
+		"paintbackgroundtype"	"2"
 	}
-	"ServerName"
+
+	"InfoDiv"//divider
 	{
-		"ControlName"		"Label"
+		"ControlName"		"ImagePanel"
+		"fieldName"		"InfoDiv"
+		"xpos"		"4"
+		"ypos"		"18"
+		"wide"		"472"
+		"tall"		"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			""
+		"fillcolor"		"200 200 200 200"
+	}
+
+
+	"ServerName" 
+	{
+		"ControlName"		"Label" 
 		"fieldName"		"ServerName"
-		"xpos"		"3"
-		"ypos"		"2"
-		"wide"		"250"
-		"tall"		"24"
+		"xpos"		"8"
+		"ypos"		"4"
+		"wide"		"468"
+		"tall"		"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"north-west"
-		"font"			"defaultverysmall"
+		"font"			"DefaultVerySmall"
 		"dulltext"		"0"
 		"brighttext"	"1"
 	}
-	"PlayerList"
+	"NameLabel" 
+	{
+		"ControlName"		"Label" 
+		"fieldName"		"NameLabel"
+		"xpos"		"8"
+		"ypos"		"26"
+		"wide"		"472"
+		"tall"		"16"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#Playername"
+		"textAlignment"		"north-west"
+		"font"			"DefaultVerySmall"
+		"dulltext"		"0"
+		"brighttext"	"1"
+	}
+
+
+	"PlayerList"//lists
 	{
 		"ControlName"		"SectionedListPanel"
 		"fieldName"		"PlayerList"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"480"
-		"tall"		"360"
+		"xpos"		"4"
+		"ypos"		"24"
+		"wide"		"472"
+		"tall"		"336"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"autoresize"	"3"
-		"linespacing"	"10" //so 31 player fit (schmuck that one player and spectators)
 	}
 }

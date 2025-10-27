@@ -217,15 +217,15 @@
 		}
 		"voice_player"
 		{
-				"file"		"voice/icntlk_sv"
+				"file"		"voice/icntlk_pl_status"
 				"x"		"0"
 				"y"		"0"
-				"width"		"32"
-				"height"	"32"
+				"width"		"16"
+				"height"	"16"
 		}
 		"voice_self"
 		{
-				"file"		"voice/icntlk_sv"
+				"file"		"voice/icntlk_pl"
 				"x"		"0"
 				"y"		"0"
 				"width"		"32"
