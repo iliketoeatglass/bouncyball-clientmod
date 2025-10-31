@@ -122,7 +122,7 @@
 		"text_ypos" "34"
 		"digit_xpos" "44"
 		"digit_ypos" "2"
-		"digit2_xpos" "14"
+		"digit2_xpos" "10"
 		"digit2_ypos" "8"
 	}
 

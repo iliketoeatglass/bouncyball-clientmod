@@ -549,8 +549,9 @@ event WeaponUsesClips
 	Animate HudAmmo		BgColor		"200 200 200 80"	Linear	0.0		0.1
 	Animate HudAmmo		BgColor		"BgColor"		Deaccel	0.1		1.0
 	Animate HudAmmo		FgColor		"BrightFg"		Linear	0.0		0.1
-	Animate HudAmmo		FgColor		"FgColor"		Linear	0.2		1.
-	Animate HudAmmo		text_ypos		0	Linear	0	0
+	Animate HudAmmo		FgColor		"FgColor"		Linear	0.2		1.0
+	
+	Animate HudAmmo		text_ypos		34	Linear	0	0
 }
 
 // ran if we just changed to a weapon that does not use clip ammo

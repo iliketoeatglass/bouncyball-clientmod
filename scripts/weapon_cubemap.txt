@@ -35,13 +35,19 @@ WeaponData
 				"font"		"WeaponIconsSelectedLegacy"
 				"character"	"h"
 		}
+		//"ammo"
+		//{
+		//		"file"		"sprites/a_icons1"
+		//		"x"			"86"
+		//		"y"			"60"
+		//		"width"		"42"
+		//		"height"	"15"
+		//}
+
 		"ammo"
 		{
-				"file"		"sprites/a_icons1"
-				"x"			"86"
-				"y"			"60"
-				"width"		"42"
-				"height"	"15"
+				"font"		"WeaponIconsSmall"
+				"character"	"W"
 		}
 		"crosshair"
 		{
