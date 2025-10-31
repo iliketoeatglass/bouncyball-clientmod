@@ -301,7 +301,7 @@ Scheme
 		}
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-		Default
+		"Default"
 		{
 			"1"
 			{
@@ -309,7 +309,39 @@ Scheme
 				"tall"		"9"
 				"weight"	"700"
 				"antialias" "1"
-				"additive"	"0"
+				"yres"	"1 599"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"700"
+				"antialias" "1"
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"900"
+				"antialias" "1"
+				"yres"	"768 1023"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"20"
+				"weight"	"900"
+				"antialias" "1"
+				"yres"	"1024 1200"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"9"
+				"weight"	"900"
+				"antialias" "1"
+				"additive"	"1"
 			}
 		}
 
@@ -510,7 +542,7 @@ Scheme
 				"tall"		"11"
 				"weight"	"700"
 				"antialias" "1"
-				"additive"	"0"
+				"additive"	"1"
 			}
 		}
 		HudSelectionNumbers

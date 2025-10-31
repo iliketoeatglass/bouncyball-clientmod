@@ -58,7 +58,7 @@ WeaponData
 		"ammo2"
 		{
 				"font"		"WeaponIconsSmall"
-				"character"	"V"
+				"character"	"X"
 		}
 		"crosshair"
 		{
